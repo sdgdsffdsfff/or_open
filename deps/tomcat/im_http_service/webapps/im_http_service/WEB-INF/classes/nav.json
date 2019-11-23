@@ -5,7 +5,7 @@
   "baseaddess": {
     "simpleapiurl": "http://ip:8080",
     "fileurl": "http://ip:8080",
-    "domain": "qtalk.test.org",
+    "domain": "qtalk",
     "javaurl": "http://ip:8080/package",
     "protobufPcPort": 5202,
     "xmpp": "ip",
@@ -14,15 +14,20 @@
     "pubkey": "rsa_public_key",
     "xmppmport": 5222,
     "httpurl": "http://ip:8080/newapi",
-    "apiurl": "http://ip:8080/api"
+    "apiurl": "http://ip:8080/api",
+    "shareurl":"http://ip:8080/py/sharemsg",
+    "domainhost":"ip",
+    "resetPwdUrl":"http://ip:8080/static/reterievepassword.html"
   },
   "imConfig": {
     "RsaEncodeType": 1,
     "showOrganizational": true,
-    "mail":"qtalk.test.org"
+    "mail":"qtalk",
+    "foundConfigUrl":"http://ip:8080//startalk/management/find/get/navigation"
   },
   "ability": {
-    "searchurl": "http://ip:8080/search/search.py"
+    "searchurl": "http://ip:8080/py/search",
+    "showmsgstat": true
   },
   "RNAndroidAbility": {
     "RNMineView": true,
@@ -43,5 +48,5 @@
   "RNSettingView": true,
   "RNUserCardView": true
 },
-  "version": 10005
+  "version": 1
 }
